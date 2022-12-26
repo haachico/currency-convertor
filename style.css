@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+.currency-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80rem;
+  margin: 9rem auto 0 auto;
+}
+
+.heading {
+  font-size: 4rem;
+  margin-bottom: 10rem;
+}
+
+/* .currency-one-container {
+  padding: 2rem 2rem;
+} */
+
+input,
+select {
+  margin-bottom: 8rem;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+}
