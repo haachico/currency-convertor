@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital@0;1&family=Rubik:ital@1&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,16 +9,23 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #b45309;
+}
 .currency-container {
+  border-radius: 5px;
+  padding: 4rem 1rem;
+  background-color: #fde68a;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80rem;
+  width: 70%;
   margin: 9rem auto 0 auto;
 }
 
 .heading {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 10rem;
 }
 
@@ -26,7 +35,20 @@ html {
 
 input,
 select {
-  margin-bottom: 8rem;
+  background-color: #fffbeb;
+  margin-bottom: 4rem;
   font-size: 2rem;
   padding: 1rem 2rem;
+  border: none;
+}
+
+.exchange-rate {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.5rem rgb(217, 119, 6, 0.5);
 }
